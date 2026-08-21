@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Submit an enrollment inquiry for Enlighten Institute and continue directly through WhatsApp.">
+  <title>Enroll Now | Enlighten Institute</title>
+  <link rel="icon" href="Logo/Enlighten Full Logo copy.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="enroll">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Enlighten Institute home">
+        <img src="Logo/Enlighten Full Logo copy.png" alt="Enlighten Institute logo">
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu" id="primary-navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="services.html">Services</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="btn btn-nav active" href="enroll.html">Enroll Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <span class="eyebrow yellow">Admissions</span>
+        <h1>Enroll Now</h1>
+        <p>Students and parents can submit their details and continue the enrollment inquiry directly through WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="section enroll-section">
+      <div class="container enroll-layout">
+        <aside class="enroll-info reveal">
+          <span class="eyebrow blue">Inquiry Form</span>
+          <h2>Start Your Enrollment Conversation</h2>
+          <p>Complete the form and we will prepare a WhatsApp message with your details for Enlighten Institute.</p>
+          <div class="contact-card">
+            <span class="location-pin" aria-hidden="true"></span>
+            <div>
+              <strong>Contact Number</strong>
+              <a href="tel:+923162997108">+92 316 2997108</a>
+            </div>
+          </div>
+        </aside>
+
+        <form class="enroll-form reveal" id="enrollment-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="studentName">Student Full Name <span>*</span></label>
+              <input id="studentName" name="studentName" type="text" autocomplete="name" required>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="parentName">Parent / Guardian Name <span>*</span></label>
+              <input id="parentName" name="parentName" type="text" required>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number <span>*</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" autocomplete="email">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="campus">Select Campus <span>*</span></label>
+              <select id="campus" name="campus" required>
+                <option value="">Choose campus</option>
+                <option value="Precinct-2, Bahria Town Karachi">Precinct-2, Bahria Town Karachi</option>
+                <option value="Precinct-10A, Bahria Town Karachi">Precinct-10A, Bahria Town Karachi</option>
+              </select>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="program">Select Program <span>*</span></label>
+              <select id="program" name="program" required>
+                <option value="">Choose program</option>
+                <option value="O Level">O Level</option>
+                <option value="A Level">A Level</option>
+                <option value="IX, X, XI &amp; XII">IX, X, XI &amp; XII</option>
+                <option value="Edexcel">Edexcel</option>
+                <option value="Morning Program">Morning Program</option>
+                <option value="Juniors &#8212; Class 5 to 8">Juniors &mdash; Class 5 to 8</option>
+              </select>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="studentClass">Student Class / Grade <span>*</span></label>
+              <input id="studentClass" name="studentClass" type="text" required>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field">
+              <label for="timing">Preferred Timing</label>
+              <input id="timing" name="timing" type="text" placeholder="Type preferred timing">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-field full">
+              <label for="message">Additional Message</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+              <small class="error-message"></small>
+            </div>
+          </div>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          <button class="btn btn-primary form-submit" type="submit">Continue on WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="Logo/Enlighten Full Logo copy.png" alt="Enlighten Institute logo">
+        <p>Quality academic support for students in a focused, supportive and professional learning environment.</p>
+      </div>
+      <div>
+        <h2>Quick Links</h2>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="enroll.html">Enroll Now</a>
+      </div>
+      <div>
+        <h2>Programs</h2>
+        <a href="services.html">O Level</a>
+        <a href="services.html">A Level</a>
+        <a href="services.html">IX, X, XI &amp; XII</a>
+        <a href="services.html">Edexcel</a>
+        <a href="services.html">Morning Program</a>
+        <a href="services.html">Juniors</a>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <a href="tel:+923162997108">+92 316 2997108</a>
+        <p>Precinct-2, Bahria Town Karachi</p>
+        <p>Precinct-10A, Bahria Town Karachi</p>
+        <a href="https://wa.me/923162997108" target="_blank" rel="noopener">WhatsApp Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-current-year></span> Enlighten Institute. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/923162997108" target="_blank" rel="noopener" aria-label="Contact Enlighten Institute on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.03 3.2A12.7 12.7 0 0 0 5.1 22.38L3.6 28.8l6.56-1.42A12.68 12.68 0 1 0 16.03 3.2Zm0 2.4a10.28 10.28 0 1 1-5.25 19.12l-.42-.25-3.48.75.8-3.4-.28-.44A10.28 10.28 0 0 1 16.03 5.6Zm-4.3 4.88c-.24 0-.62.09-.94.44-.32.35-1.23 1.2-1.23 2.93s1.26 3.4 1.43 3.64c.18.23 2.44 3.9 6.02 5.3 2.98 1.18 3.59.94 4.24.88.65-.06 2.1-.86 2.4-1.7.29-.82.29-1.53.2-1.68-.09-.14-.32-.23-.67-.41-.35-.18-2.1-1.04-2.42-1.16-.32-.12-.56-.18-.8.18-.23.35-.91 1.16-1.12 1.39-.2.24-.41.27-.76.09-.35-.18-1.48-.55-2.82-1.74-1.04-.93-1.74-2.08-1.95-2.43-.2-.35-.02-.54.15-.71.16-.15.35-.41.53-.62.18-.2.23-.35.35-.59.12-.23.06-.44-.03-.62-.09-.18-.8-1.93-1.09-2.64-.28-.68-.57-.59-.8-.6h-.7Z"/></svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
